@@ -22,18 +22,26 @@
     <main>
       <p>Hubungi saya</p>
       <form action="kontak.html" method="get">
-        <label for="nama">Masukkan nama</label>
-        <input type="text" id="nama" name="nama" required />
-        <label for="email">Email anda</label>
-        <input type="email" id="email" name="email" required />
-        <label for="topik">Pilih Topik</label>
-        <select name="topik" id="topik">
-          <option value="1">Kontrak</option>
-          <option value="2">Freelance</option>
-          <option value="3">Personal</option>
-        </select>
-        <label for="pesan">Isi Pesan</label>
-        <textarea rows="5" name="pesan" id="pesan" required></textarea>
+        <p>
+          <label for="nama">Masukkan nama</label>
+          <input type="text" id="nama" name="nama" required />
+        </p>
+        <p>
+          <label for="email">Email anda</label>
+          <input type="email" id="email" name="email" required />
+        </p>
+        <p>
+          <label for="topik">Pilih Topik</label>
+          <select name="topik" id="topik">
+            <option value="kontrak">Kontrak</option>
+            <option value="freelance">Freelance</option>
+            <option value="personal">Personal</option>
+          </select>
+        </p>
+        <p>
+          <label for="pesan">Isi Pesan</label>
+          <textarea rows="5" name="pesan" id="pesan" required></textarea>
+        </p>
         <button type="submit">Kirim</button>
       </form>
     </main>
