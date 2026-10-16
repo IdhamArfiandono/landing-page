@@ -28,10 +28,44 @@ a {
 a:hover {
   color: #c2310c;
 }
-footer {
-  text-align: center;
-}
 
 .foto-profil {
   border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  width: 100%;
+  max-width: 320px;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e9eef7;
+}
+
+footer {
+  text-align: center;
 }
