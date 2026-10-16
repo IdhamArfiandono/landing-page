@@ -1,0 +1,25 @@
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 2.2;
+  color: #222222;
+  background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+  color: #1a3c6e;
+}
+
+a {
+  color: #0b5fff;
+}
+a:hover {
+  color: #c2310c;
+}
+footer {
+  text-align: center;
+}
+
+.foto-profil {
+  border-radius: 12px;
+}
