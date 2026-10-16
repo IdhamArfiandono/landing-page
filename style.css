@@ -17,6 +17,11 @@ h2 {
   color: #1a3c6e;
 }
 
+nav a {
+  display: inline-block;
+  padding: 8px 12px;
+}
+
 a {
   color: #0b5fff;
 }
