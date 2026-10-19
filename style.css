@@ -87,6 +87,17 @@ th {
   background-color: #e9eef7;
 }
 
+.profil {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profil-teks {
+  flex: 1;
+}
+
 footer {
   text-align: center;
 }
