@@ -21,7 +21,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #1a3c6e;
 }
 
@@ -96,6 +97,29 @@ th {
 
 .profil-teks {
   flex: 1 1 250px;
+}
+
+.kartu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.kartu {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.kartu h3 {
+  margin: 0 0 8px;
+}
+
+.kartu p {
+  margin: 0;
 }
 
 footer {
